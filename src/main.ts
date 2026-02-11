@@ -101,7 +101,6 @@ function moveNoButton() {
   messageEl.textContent = randomMessage
   messageEl.style.color = '#ffe6f0'
   messageEl.style.fontSize = '1.1em'
-  console.log(`Move count: ${moveCount} - ${randomMessage}`);
   
   // After 25 moves, remove the No button
   if (moveCount >= 25) {
