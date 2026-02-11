@@ -112,7 +112,7 @@ function moveNoButton() {
     messageEl.style.color = '#fff'
     messageEl.style.fontSize = '1.3em'
     return
-  }
+  }3
   
   const randomX = Math.random() * 300 - 150
   const randomY = Math.random() * 300 - 150
